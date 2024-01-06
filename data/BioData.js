@@ -14,7 +14,7 @@ const bioData = [
         newProductUrl: 'https://3dicons.co',
         newProduct: false,
         author: 'mumaralfajar',
-        authorURL: 'https://twitter.com/realvjy',
+        authorURL: 'https://www.linkedin.com/in/mumarual/',
         footerText: 'made by'
     },
 ];
