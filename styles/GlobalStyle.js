@@ -7,7 +7,7 @@ body.dark-mode {
 }
 
 body.light-mode {
-  --img: invert(0);
+  --img: invert(1);
   --avatar-shadow: rgba(48,52,77,.1);
 } 
 
