@@ -1,19 +1,19 @@
-// date: 1 Aug, 2022
+// date: 04 Jan, 2024
 const bioData = [
     {
-        name: 'nxt lnk',
-        username: 'nxtlnk.vercel.app',
-        url: 'https://nxtlnk.vercel.app',
+        name: 'Muhammad Umar Al Fajar',
+        username: 'lifelong learner',
+        url: 'https://nnaru.id',
         titleImg: true,
         avatar: '/avatar.png',
         nftAvatar: true,
-        description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk. ',
+        description: 'A creative who loves coding.',
         descShow: true,
-        subdesc: 'Use this template and deploy on vercel for free',
+        subdesc: '',
         subdescShow: true,
         newProductUrl: 'https://3dicons.co',
-        newProduct: true,
-        author: 'realvjy',
+        newProduct: false,
+        author: 'mumaralfajar',
         authorURL: 'https://twitter.com/realvjy',
         footerText: 'made by'
     },

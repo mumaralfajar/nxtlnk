@@ -6,11 +6,11 @@ const webLinks = [
         url: 'https://twitter.com/realvjy',
         type: 'social',
         icon: '/twitter.svg',
-        on: true
+        on: false
     },
     {
         title: 'Instagram',
-        url: 'https://instagram.com/realvjy',
+        url: 'https://www.instagram.com/mumaralfajar/',
         type: 'social',
         icon: '/insta.svg',
         on: true
@@ -24,14 +24,14 @@ const webLinks = [
     },
     {
         title: 'Medium',
-        url: 'https://medium.com/@realvjy',
+        url: 'https://medium.com/@umar-fajar14',
         type: 'social',
         icon: '/medium.svg',
-        on: false
+        on: true
     },
     {
         title: 'Github',
-        url: 'https://github.com/realvjy',
+        url: 'https://github.com/mumaralfajar',
         type: 'social',
         icon: '/github.svg',
         on: true
@@ -48,7 +48,7 @@ const webLinks = [
         url: 'https://figma.com/@realvjy',
         type: 'social',
         icon: '/figma.svg',
-        on: true
+        on: false
     },
     {
         title: 'Behance',
@@ -59,17 +59,17 @@ const webLinks = [
     },
     {
         title: 'Linkedin',
-        url: 'https://www.linkedin.com/in/realvjy/',
+        url: 'https://www.linkedin.com/in/mumarual/',
         type: 'social',
         icon: '/linkedin.svg',
-        on: false
+        on: true
     },
     {
         title: 'Mastodon',
         url: 'https://mastodon.online/@realvjy',
         type: 'social',
         icon: '/mastodon.svg',
-        on: true
+        on: false
     },
     {
         title: 'Hive Social',
@@ -108,23 +108,23 @@ const webLinks = [
     },
     // Install section
     {
-        title: 'Use this template',
-        url: 'https://github.com/realvjy/nxt-lnk/generate',
-        type: 'install',
-        icon: '/use.png',
+        title: 'Learn How to Learn',
+        url: 'https://medium.com/@tywhang/overwhelmed-when-learning-a-new-skill-you-re-doing-it-wrong-f65bdccac11f',
+        type: 'featured',
+        icon: '/medium.svg',
         on: true
     },
     {
-        title: 'Deploy on Vercel',
-        url: 'https://vercel.com/import/git?s=https://github.com/realvjy/nxt-lnk',
-        type: 'install',
-        icon: '/vercel.svg',
-        on: true
+        title: "Don't Fly Solo",
+        url: 'https://copilot.github.com/',
+        type: 'featured',
+        icon: '/github.svg',
+        on: true,
     },
     {
-        title: 'Documentation',
-        url: 'https://github.com/realvjy/nxt-lnk#nxt-lnk',
-        type: 'install',
+        title: 'Check Out My Latest Article',
+        url: 'https://umar-fajar14.medium.com/spring-boot-kafka-and-websocket-a-practical-approach-to-real-time-messaging-6169f5995fe1',
+        type: 'featured',
         icon: '/doc.png',
         on: true
     },
@@ -133,7 +133,7 @@ const webLinks = [
         url: 'https://github.com/realvjy/nxt-lnk',
         type: 'install',
         icon: '/github-fill.svg',
-        on: true
+        on: false
     },
 
     {
@@ -141,7 +141,7 @@ const webLinks = [
         url: 'https://www.buymeacoffee.com/realvjy',
         type: 'other',
         icon: '/bmc.png',
-        on: true
+        on: false
     },
 
     {
@@ -149,7 +149,7 @@ const webLinks = [
         url: 'https://vjy.me/lnk',
         type: 'other',
         icon: '/vjy.png',
-        on: true
+        on: false
     },
 
     {
@@ -157,7 +157,7 @@ const webLinks = [
         url: 'https://vjy.me',
         type: 'other',
         icon: '/vjy.png',
-        on: true
+        on: false
     },
 ];
 

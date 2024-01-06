@@ -64,6 +64,11 @@ const Links = () => {
     return el.type === "other" && el.on
   });
 
+  //get data for featured section
+  const featured = allLinks.filter((el) => {
+    return el.type === "featured" && el.on
+  });
+
   return (
       <LinkWrapper>
         <LinkContainer>
@@ -79,6 +84,7 @@ const Links = () => {
                   <img
                       src={avatarImg}
                       className={avatarShape}
+                      alt={"avatar image"}
                   />
                 </AvatarWrap>
               </Avatar>
@@ -121,6 +127,35 @@ const Links = () => {
                 </div>
               </LinkSection>
               {/* Social Icon */}
+
+              {/* Featured Section */}
+              {
+                featured.length > 0 ?
+                    <LinkSection>
+                      {(newProduct) ? <NewSection>
+                        <a href={newProductUrl} target="_blank" rel="noreferrer">
+                          <img
+                            src={'/newproduct.png'}
+                            className="newproduct"
+                          />
+                        </a>
+                      </NewSection> : ''
+                      }
+                      <h3>{featured[0].type}</h3>
+                      {
+                        featured.map((i) => {
+                          return (
+                              <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
+                                <LinkBox>
+                                  <LinkTitle><img src={i.icon} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
+                                </LinkBox>
+                              </a>
+                          )
+                        })
+                      }
+                    </LinkSection> : ''
+              }
+              {/* End Featured Section */}
 
               {/* Install Section */}
               {
@@ -170,15 +205,15 @@ const Links = () => {
                       <h3>{others[0].type}</h3>
                       {/* BioData.js > newProduct == true */}
                       {/* New Section will render once newProduct == true */}
-                      {(newProduct) ? <NewSection>
-                        <a href={newProductUrl} target="_blank" rel="noreferrer">
-                          <img
-                              src={'/newproduct.png'}
-                              className="newproduct"
-                          />
-                        </a>
-                      </NewSection> : ''
-                      }
+                      {/*{(newProduct) ? <NewSection>*/}
+                      {/*  <a href={newProductUrl} target="_blank" rel="noreferrer">*/}
+                      {/*    <img*/}
+                      {/*        src={'/newproduct.png'}*/}
+                      {/*        className="newproduct"*/}
+                      {/*    />*/}
+                      {/*  </a>*/}
+                      {/*</NewSection> : ''*/}
+                      {/*}*/}
                       {/* End Biodata.js, You can move this section anywhere */}
                       {
                         others.map((i) => {
@@ -302,11 +337,11 @@ const Title = styled.div`
       }
     }
     .handle{
-      height: 32px;
+      height: 72px;
       margin-top: 6px;
       margin-bottom: 6px;
       @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
-        height: 26px;
+        height: 48px;
       }
     }
 `
@@ -446,6 +481,7 @@ const LinkBox = styled.div`
     letter-spacing: -.5px;
     position: relative;
     text-align: center;
+    transition: all 1333ms ease 0s;
     
     &::before{
       content: "";
@@ -460,6 +496,7 @@ const LinkBox = styled.div`
     &:hover{
     transition: all 333ms ease 0s;
     border-color: transparent;
+    box-shadow: 0 0 10px #0000ff;
       &::before{
         opacity: 1;
         background: ${({ theme }) => theme.bg.hover};
@@ -468,6 +505,7 @@ const LinkBox = styled.div`
       }
     }
     .new-up{
+        margin-left: 8px;
       transform: scale(.8);
       opacity: .7;
     }

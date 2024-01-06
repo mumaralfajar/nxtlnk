@@ -25,7 +25,7 @@ export default function Seo({ page }) {
                             alt: `${title}`,
                         },
                     ],
-                    site_name: 'vjy.me',
+                    site_name: 'links.nnaru.id',
                 }}
                 twitter={{
                     handle: '@realvjy',
@@ -49,7 +49,6 @@ export default function Seo({ page }) {
                     notranslate: true,
                     noimageindex: false,
                     noarchive: false,
-                    notranslate: false,
                     maxSnippet: -1,
                     maxImagePreview: 'large',
                     maxVideoPreview: -1,

@@ -1,14 +1,14 @@
 {
-  "name": "realvjy",
-  "version": "5.0.0",
+  "name": "mumaralfajar",
+  "version": "1.0.0",
   "description": "Design Wizard",
-  "author": "realvjy",
+  "author": "mumaralfajar",
   "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@react-three/fiber": "^8.2.1",
