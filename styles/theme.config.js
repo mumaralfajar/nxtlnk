@@ -20,7 +20,7 @@ const light = {
         onPrimary: '#ffffff',
     },
     img: {
-        filter: 'invert(0)'
+        filter: 'invert(1)'
     },
 
 }
@@ -44,7 +44,7 @@ const dark = {
         onPrimary: '#050505',
     },
     img: {
-        filter: 'invert(1)'
+        filter: 'invert(0)'
     },
     // ...
 }
