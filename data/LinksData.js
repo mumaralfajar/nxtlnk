@@ -3,7 +3,7 @@ const webLinks = [
     // All social profile
     {
         title: 'Twitter',
-        url: 'https://twitter.com/realvjy',
+        url: 'https://twitter.com/mumarualfajar',
         type: 'social',
         icon: '/twitter.svg',
         on: false
@@ -17,7 +17,7 @@ const webLinks = [
     },
     {
         title: 'Dribbble',
-        url: 'https://dribbble.com/realvjy',
+        url: 'https://mumaru.me',
         type: 'social',
         icon: '/dribbble.svg',
         on: false
@@ -38,21 +38,21 @@ const webLinks = [
     },
     {
         title: 'Youtube',
-        url: 'https://youtube.com/realvjy',
+        url: 'https://mumaru.me',
         type: 'social',
         icon: '/youtube.svg',
         on: false
     },
     {
         title: 'Figma',
-        url: 'https://figma.com/@realvjy',
+        url: 'https://mumaru.me',
         type: 'social',
         icon: '/figma.svg',
         on: false
     },
     {
         title: 'Behance',
-        url: 'https://behance.net/realvjy',
+        url: 'https://mumaru.me',
         type: 'social',
         icon: '/behance.svg',
         on: false
@@ -66,42 +66,42 @@ const webLinks = [
     },
     {
         title: 'Mastodon',
-        url: 'https://mastodon.online/@realvjy',
+        url: 'https://mumaru.me',
         type: 'social',
         icon: '/mastodon.svg',
         on: false
     },
     {
         title: 'Hive Social',
-        url: 'https://www.hivesocial.app/?@realvjy',
+        url: 'https://mumaru.me',
         type: 'social',
         icon: '/hive.svg',
         on: false
     },
     {
         title: 'Post',
-        url: 'https://www.post.news/realvjy',
+        url: 'https://mumaru.me',
         type: 'social',
         icon: '/post.svg',
         on: false
     },
     {
         title: 'foundation',
-        url: 'https://vjy.me',
+        url: 'https://mumaru.me',
         type: 'nft',
         icon: '/foundation.svg',
         on: false
     },
     {
         title: 'opensea',
-        url: 'https://vjy.me',
+        url: 'https://mumaru.me',
         type: 'nft',
         icon: '/opensea.svg',
         on: false
     },
     {
         title: 'new collection',
-        url: 'https://vjy.me',
+        url: 'https://mumaru.me',
         type: 'nft',
         icon: '/opensea.svg',
         on: false
@@ -130,7 +130,7 @@ const webLinks = [
     },
     {
         title: 'Github',
-        url: 'https://github.com/realvjy/nxt-lnk',
+        url: 'https://github.com/mumaralfajar/nxtlnk',
         type: 'install',
         icon: '/github-fill.svg',
         on: false
@@ -138,7 +138,7 @@ const webLinks = [
 
     {
         title: 'Buy Me a Coffee',
-        url: 'https://www.buymeacoffee.com/realvjy',
+        url: 'https://mumaru.me',
         type: 'other',
         icon: '/bmc.png',
         on: false
@@ -146,7 +146,7 @@ const webLinks = [
 
     {
         title: 'link demo',
-        url: 'https://vjy.me/lnk',
+        url: 'https://mumaru.me',
         type: 'other',
         icon: '/vjy.png',
         on: false
@@ -154,7 +154,7 @@ const webLinks = [
 
     {
         title: 'maker website',
-        url: 'https://vjy.me',
+        url: 'https://mumaru.me',
         type: 'other',
         icon: '/vjy.png',
         on: false

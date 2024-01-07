@@ -2,8 +2,8 @@
 const bioData = [
     {
         name: 'Muhammad Umar Al Fajar',
-        username: 'lifelong learner',
-        url: 'https://nnaru.id',
+        username: 'lifetime learner',
+        url: 'https://mumaru.me',
         titleImg: true,
         avatar: '/avatar.png',
         nftAvatar: true,

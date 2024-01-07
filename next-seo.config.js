@@ -1,9 +1,9 @@
 export default {
     openGraph: {
         type: 'website',
-        title: 'Links | nnaru',
+        title: 'Links',
         url: 'https://links.nnaru.id',
-        description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk.',
+        description: 'A creative who loves coding.',
         locale: 'en_ID',
         keywords: 'software developer, web developer, ui/ux designer, front-end developer, developer, software engineer',
         images: [

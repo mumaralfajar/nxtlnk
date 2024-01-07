@@ -28,8 +28,8 @@ export default function Seo({ page }) {
                     site_name: 'links.nnaru.id',
                 }}
                 twitter={{
-                    handle: '@realvjy',
-                    site: 'vjy.me',
+                    handle: '@mumarualfajar',
+                    site: 'mumar.me',
                     cardType: 'summary_large_image',
                 }}
                 additionalMetaTags={[{
