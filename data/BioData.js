@@ -5,7 +5,7 @@ const bioData = [
         username: 'lifetime learner',
         url: 'https://mumaru.me',
         titleImg: true,
-        avatar: '/avatar.png',
+        avatar: '/eb930fd1-46cd-445e-baff-4cbcc3b927f7.jpeg',
         nftAvatar: true,
         description: 'A creative who loves coding.',
         descShow: true,

@@ -272,7 +272,7 @@ const LinkHeader = styled.div`
 
 const Avatar = styled.div`
     height: 90px;
-    width: 90px;
+    width: 112px;
     position: relative;
     margin-bottom: 12px;
 `
